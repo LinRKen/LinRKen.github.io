@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>My second article</title>
+      <link href="/2023/01/10/2023-1-10%20arc2/"/>
+      <url>/2023/01/10/2023-1-10%20arc2/</url>
+      
+        <content type="html"><![CDATA[<h2 id="This-is-my-second-article"><a href="#This-is-my-second-article" class="headerlink" title="This is my second article."></a>This is my second article.</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> 2 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> tag2 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>My first article</title>
+      <link href="/2023/01/10/2023-1-10%20arc1/"/>
+      <url>/2023/01/10/2023-1-10%20arc1/</url>
+      
+        <content type="html"><![CDATA[<h2 id="This-is-my-first-article"><a href="#This-is-my-first-article" class="headerlink" title="This is my first article."></a>This is my first article.</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> 1 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> tag1 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
