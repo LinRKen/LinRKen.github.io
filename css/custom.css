@@ -62,7 +62,7 @@
 }
 
 /* 侧边栏个人信息卡片动态渐变色 */
-#aside-content > .card-widget.card-info {
+#aside-content &gt; .card-widget.card-info {
   background: linear-gradient(
     -45deg,
     #e8d8b9,
@@ -113,12 +113,12 @@
 }
 
 /* 黑夜模式适配 */
-[data-theme="dark"] #aside-content > .card-widget.card-info {
-  background: #000000;
+[data-theme="dark"] #aside-content &gt; .card-widget.card-info {
+  background: #191919ee;
 }
 
 /* 个人信息Follow me按钮 */
-#aside-content > .card-widget.card-info > #card-info-btn {
+#aside-content &gt; .card-widget.card-info &gt; #card-info-btn {
   background-color: #3eb8be;
   border-radius: 8px;
 }
@@ -240,3 +240,63 @@
     text-shadow: #5636ed 0 0 5px;
   }
 }
+
+/*rainbow head*/
+#content-inner.layout h1{
+  color: #25C3B6 ;
+  margin-left: -2.0rem;
+  font-size: 1.50rem;
+  margin-top: -0.23rem;
+  /* text-align: center; */
+  overflow: hidden;
+  /* position: relative; */
+}
+#content-inner.layout h2{
+  color: #43BBF7 ;
+  margin-left: -1.80rem;
+  font-size: 1.42rem;
+  margin-top: -0.23rem;
+}
+#content-inner.layout h3{
+  color: #486EE0 ;
+  margin-left: -1.60rem;
+  font-size: 1.34rem;
+  margin-top: -0.23rem;
+}
+#content-inner.layout h4{
+  color: #5C82F7 ;
+  margin-left: -1.40rem;
+  font-size: 1.26rem;
+  margin-top: -0.23rem;
+}
+#content-inner.layout h5{
+  color: #6143F7 ;
+  margin-left: -1.20rem;
+  font-size: 1.18rem;
+  margin-top: -0.23rem;
+}
+#content-inner.layout h6{
+  color: #A840ED ;
+  margin-left: -1.00rem;
+  font-size: 1.10rem;
+  margin-top: -0.23rem;
+}
+
+/*h1 dividing line*/
+#content-inner.layout h1::before, #content-inner.layout h1::after{
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  background: #43BBF7;
+  top: 50%;
+}
+#content-inner.layout h1::before{
+  margin-left: -10px;
+  transform: translateX(-100%);
+}
+#content-inner.layout h1::after{
+  margin-left: 10px;
+}
+
